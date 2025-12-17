@@ -11,7 +11,7 @@ export const ListBookGrid = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-7 w-full gap-5 p-5">
+    <div className="grid grid-cols-2 xl:grid-cols-7 w-full gap-5 p-5">
       {books.map((book, index) => (
         <div
           key={index}
